@@ -21,7 +21,7 @@ echo -e "----------------------------------------------"
 read -p "回车键继续..."
 echo -e "${green}x-ui install for alpine"
 echo "检查安装环境"
-apk add curl && apk add bash && apk add sudo && apk add wget
+apt add curl && apt add bash && apt add sudo && apt add wget
 mkdir /lib64
 cp /lib/ld-musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2
 

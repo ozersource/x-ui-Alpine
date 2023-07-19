@@ -55,11 +55,11 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "vps64.vpslog.eu.org",
+          "serverName": "",
           "certificates": [
             {
-              "certificateFile": "/root/fullchain.cer",
-              "keyFile": "/root/vps64.vpslog.eu.org.key"
+              "certificateFile": "",
+              "keyFile": ""
             }
           ]
         },
